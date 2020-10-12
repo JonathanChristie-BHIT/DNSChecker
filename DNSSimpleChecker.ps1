@@ -3,7 +3,7 @@ $errData = @()
 $errLookup = $null
 
 [array]$DNSServers = @(
-    ('192.168.10.1', 'Internal'),
+    ('192.168.0.1', 'Internal'),
     ('8.8.4.4', 'Google A'),
     ('8.8.8.8', 'Google B'),
     ('1.1.1.1', 'Cloudflare A'),
